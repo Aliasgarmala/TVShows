@@ -7,14 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4150D2A224982D6A007FBEDD /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150D2A124982D6A007FBEDD /* Day.swift */; };
+		4150D2A52498345B007FBEDD /* ScheduleDateEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150D2A42498345B007FBEDD /* ScheduleDateEncodable.swift */; };
+		4150D2AB2498425E007FBEDD /* ShowServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150D2AA2498425E007FBEDD /* ShowServiceMock.swift */; };
+		4150D2AD24984BA8007FBEDD /* ImageServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150D2AC24984BA8007FBEDD /* ImageServiceMock.swift */; };
+		4150D2B1249855B6007FBEDD /* ShowViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150D2B0249855B6007FBEDD /* ShowViewModelTest.swift */; };
+		4150D2B324985F45007FBEDD /* DateFormatter+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150D2B224985F45007FBEDD /* DateFormatter+Utilities.swift */; };
+		4150D2B52498658C007FBEDD /* DetailViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150D2B42498658C007FBEDD /* DetailViewModelTest.swift */; };
+		41C7D61A2493C9910039E030 /* TableViewCell+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C7D6192493C9910039E030 /* TableViewCell+Utilities.swift */; };
+		41C7D61C2493D7D70039E030 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C7D61B2493D7D70039E030 /* UIView+AutoLayout.swift */; };
+		41C7D61F2493D9030039E030 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C7D61E2493D9030039E030 /* ActivityIndicator.swift */; };
+		41D360F4249504C100478902 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D360F3249504C100478902 /* DetailViewController.swift */; };
+		41D360F6249506B200478902 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D360F5249506B200478902 /* DetailView.swift */; };
+		41D360F824950CD800478902 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D360F724950CD800478902 /* DetailViewModel.swift */; };
+		41D360FA2495779000478902 /* String+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D360F92495779000478902 /* String+Utilities.swift */; };
+		41D3610024968AE200478902 /* Cast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D360FF24968AE200478902 /* Cast.swift */; };
+		41D361022496D3A700478902 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D361012496D3A700478902 /* PageViewController.swift */; };
 		41DDB6212492F41C00BAD201 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6202492F41C00BAD201 /* AppDelegate.swift */; };
 		41DDB6232492F41C00BAD201 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6222492F41C00BAD201 /* SceneDelegate.swift */; };
-		41DDB6252492F41C00BAD201 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6242492F41C00BAD201 /* ViewController.swift */; };
+		41DDB6252492F41C00BAD201 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6242492F41C00BAD201 /* MainViewController.swift */; };
 		41DDB6282492F41C00BAD201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41DDB6262492F41C00BAD201 /* Main.storyboard */; };
 		41DDB62A2492F42100BAD201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DDB6292492F42100BAD201 /* Assets.xcassets */; };
 		41DDB62D2492F42100BAD201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41DDB62B2492F42100BAD201 /* LaunchScreen.storyboard */; };
-		41DDB6382492F42200BAD201 /* TVShowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6372492F42200BAD201 /* TVShowsTests.swift */; };
+		41DDB6382492F42200BAD201 /* MainViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6372492F42200BAD201 /* MainViewModelTest.swift */; };
 		41DDB6432492F42200BAD201 /* TVShowsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6422492F42200BAD201 /* TVShowsUITests.swift */; };
+		41DDB6932492F75400BAD201 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6922492F75400BAD201 /* Binding.swift */; };
+		41DDB6962492F78600BAD201 /* TVShowsSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6952492F78600BAD201 /* TVShowsSetup.swift */; };
+		41DDB6992492F7CE00BAD201 /* ServiceLayerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6982492F7CE00BAD201 /* ServiceLayerClient.swift */; };
+		41DDB69B2492F8AF00BAD201 /* ShowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB69A2492F8AF00BAD201 /* ShowService.swift */; };
+		41DDB69E2492FD2200BAD201 /* TVShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB69D2492FD2200BAD201 /* TVShow.swift */; };
+		41DDB6A02493044800BAD201 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB69F2493044800BAD201 /* Endpoint.swift */; };
+		41DDB6A32493304100BAD201 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6A22493304100BAD201 /* ViewControllerFactory.swift */; };
+		41DDB6A62493311500BAD201 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6A52493311500BAD201 /* MainViewModel.swift */; };
+		41DDB6A8249332D100BAD201 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6A7249332D100BAD201 /* ImageService.swift */; };
+		41DDB6AA2493337E00BAD201 /* ShowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6A92493337E00BAD201 /* ShowViewModel.swift */; };
+		41DDB6AE249344A200BAD201 /* ScheduleDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6AD249344A200BAD201 /* ScheduleDate.swift */; };
+		41DDB6B12493A53200BAD201 /* Encodable+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6B02493A53200BAD201 /* Encodable+Utilities.swift */; };
+		41DDB6B32493BFBF00BAD201 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDB6B22493BFBF00BAD201 /* MainViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +64,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4150D2A124982D6A007FBEDD /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		4150D2A42498345B007FBEDD /* ScheduleDateEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDateEncodable.swift; sourceTree = "<group>"; };
+		4150D2AA2498425E007FBEDD /* ShowServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowServiceMock.swift; sourceTree = "<group>"; };
+		4150D2AC24984BA8007FBEDD /* ImageServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageServiceMock.swift; sourceTree = "<group>"; };
+		4150D2B0249855B6007FBEDD /* ShowViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewModelTest.swift; sourceTree = "<group>"; };
+		4150D2B224985F45007FBEDD /* DateFormatter+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Utilities.swift"; sourceTree = "<group>"; };
+		4150D2B42498658C007FBEDD /* DetailViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelTest.swift; sourceTree = "<group>"; };
+		41C7D6192493C9910039E030 /* TableViewCell+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewCell+Utilities.swift"; sourceTree = "<group>"; };
+		41C7D61B2493D7D70039E030 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		41C7D61E2493D9030039E030 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		41D360F3249504C100478902 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		41D360F5249506B200478902 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		41D360F724950CD800478902 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		41D360F92495779000478902 /* String+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utilities.swift"; sourceTree = "<group>"; };
+		41D360FF24968AE200478902 /* Cast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cast.swift; sourceTree = "<group>"; };
+		41D361012496D3A700478902 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		41DDB61D2492F41C00BAD201 /* TVShows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVShows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DDB6202492F41C00BAD201 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41DDB6222492F41C00BAD201 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41DDB6242492F41C00BAD201 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41DDB6242492F41C00BAD201 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		41DDB6272492F41C00BAD201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41DDB6292492F42100BAD201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41DDB62C2492F42100BAD201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41DDB62E2492F42100BAD201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41DDB6332492F42200BAD201 /* TVShowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVShowsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		41DDB6372492F42200BAD201 /* TVShowsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsTests.swift; sourceTree = "<group>"; };
+		41DDB6372492F42200BAD201 /* MainViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTest.swift; sourceTree = "<group>"; };
 		41DDB6392492F42200BAD201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41DDB63E2492F42200BAD201 /* TVShowsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVShowsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DDB6422492F42200BAD201 /* TVShowsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsUITests.swift; sourceTree = "<group>"; };
 		41DDB6442492F42200BAD201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41DDB6922492F75400BAD201 /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
+		41DDB6952492F78600BAD201 /* TVShowsSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsSetup.swift; sourceTree = "<group>"; };
+		41DDB6982492F7CE00BAD201 /* ServiceLayerClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayerClient.swift; sourceTree = "<group>"; };
+		41DDB69A2492F8AF00BAD201 /* ShowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowService.swift; sourceTree = "<group>"; };
+		41DDB69D2492FD2200BAD201 /* TVShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShow.swift; sourceTree = "<group>"; };
+		41DDB69F2493044800BAD201 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		41DDB6A22493304100BAD201 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		41DDB6A52493311500BAD201 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		41DDB6A7249332D100BAD201 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		41DDB6A92493337E00BAD201 /* ShowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewModel.swift; sourceTree = "<group>"; };
+		41DDB6AD249344A200BAD201 /* ScheduleDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDate.swift; sourceTree = "<group>"; };
+		41DDB6B02493A53200BAD201 /* Encodable+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Utilities.swift"; sourceTree = "<group>"; };
+		41DDB6B22493BFBF00BAD201 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +134,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4150D2A32498343B007FBEDD /* InputModel */ = {
+			isa = PBXGroup;
+			children = (
+				4150D2A42498345B007FBEDD /* ScheduleDateEncodable.swift */,
+			);
+			path = InputModel;
+			sourceTree = "<group>";
+		};
+		4150D2A624983475007FBEDD /* OutputModel */ = {
+			isa = PBXGroup;
+			children = (
+				41DDB69D2492FD2200BAD201 /* TVShow.swift */,
+				41D360FF24968AE200478902 /* Cast.swift */,
+			);
+			path = OutputModel;
+			sourceTree = "<group>";
+		};
+		4150D2A7249841DB007FBEDD /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				4150D2AA2498425E007FBEDD /* ShowServiceMock.swift */,
+				4150D2AC24984BA8007FBEDD /* ImageServiceMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		4150D2AF24985591007FBEDD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				41DDB6372492F42200BAD201 /* MainViewModelTest.swift */,
+				4150D2B0249855B6007FBEDD /* ShowViewModelTest.swift */,
+				4150D2B42498658C007FBEDD /* DetailViewModelTest.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		41C7D61D2493D8EC0039E030 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41C7D61B2493D7D70039E030 /* UIView+AutoLayout.swift */,
+				41C7D61E2493D9030039E030 /* ActivityIndicator.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		41DDB6142492F41C00BAD201 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +202,15 @@
 		41DDB61F2492F41C00BAD201 /* TVShows */ = {
 			isa = PBXGroup;
 			children = (
+				41DDB6AF2493A51900BAD201 /* Extensions */,
+				41DDB6A42493310600BAD201 /* ViewModel */,
+				41DDB6A12493302000BAD201 /* View */,
+				41DDB69C2492FD0F00BAD201 /* Model */,
+				41DDB6972492F7B300BAD201 /* Services */,
+				41DDB6942492F77000BAD201 /* Setup */,
+				41DDB6912492F74200BAD201 /* Binding */,
 				41DDB6202492F41C00BAD201 /* AppDelegate.swift */,
 				41DDB6222492F41C00BAD201 /* SceneDelegate.swift */,
-				41DDB6242492F41C00BAD201 /* ViewController.swift */,
 				41DDB6262492F41C00BAD201 /* Main.storyboard */,
 				41DDB6292492F42100BAD201 /* Assets.xcassets */,
 				41DDB62B2492F42100BAD201 /* LaunchScreen.storyboard */,
@@ -113,7 +222,8 @@
 		41DDB6362492F42200BAD201 /* TVShowsTests */ = {
 			isa = PBXGroup;
 			children = (
-				41DDB6372492F42200BAD201 /* TVShowsTests.swift */,
+				4150D2AF24985591007FBEDD /* ViewModel */,
+				4150D2A7249841DB007FBEDD /* Mock */,
 				41DDB6392492F42200BAD201 /* Info.plist */,
 			);
 			path = TVShowsTests;
@@ -126,6 +236,79 @@
 				41DDB6442492F42200BAD201 /* Info.plist */,
 			);
 			path = TVShowsUITests;
+			sourceTree = "<group>";
+		};
+		41DDB6912492F74200BAD201 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				41DDB6922492F75400BAD201 /* Binding.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		41DDB6942492F77000BAD201 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				41DDB6952492F78600BAD201 /* TVShowsSetup.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		41DDB6972492F7B300BAD201 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				41DDB6982492F7CE00BAD201 /* ServiceLayerClient.swift */,
+				41DDB69A2492F8AF00BAD201 /* ShowService.swift */,
+				41DDB69F2493044800BAD201 /* Endpoint.swift */,
+				41DDB6A7249332D100BAD201 /* ImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		41DDB69C2492FD0F00BAD201 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4150D2A624983475007FBEDD /* OutputModel */,
+				4150D2A32498343B007FBEDD /* InputModel */,
+				41DDB6AD249344A200BAD201 /* ScheduleDate.swift */,
+				4150D2A124982D6A007FBEDD /* Day.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41DDB6A12493302000BAD201 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41DDB6A22493304100BAD201 /* ViewControllerFactory.swift */,
+				41DDB6B22493BFBF00BAD201 /* MainViewCell.swift */,
+				41DDB6242492F41C00BAD201 /* MainViewController.swift */,
+				41D360F3249504C100478902 /* DetailViewController.swift */,
+				41D360F5249506B200478902 /* DetailView.swift */,
+				41D361012496D3A700478902 /* PageViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41DDB6A42493310600BAD201 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				41DDB6A52493311500BAD201 /* MainViewModel.swift */,
+				41DDB6A92493337E00BAD201 /* ShowViewModel.swift */,
+				41D360F724950CD800478902 /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		41DDB6AF2493A51900BAD201 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				41C7D61D2493D8EC0039E030 /* View */,
+				41DDB6B02493A53200BAD201 /* Encodable+Utilities.swift */,
+				41C7D6192493C9910039E030 /* TableViewCell+Utilities.swift */,
+				4150D2B224985F45007FBEDD /* DateFormatter+Utilities.swift */,
+				41D360F92495779000478902 /* String+Utilities.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +442,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41DDB6252492F41C00BAD201 /* ViewController.swift in Sources */,
+				41DDB6962492F78600BAD201 /* TVShowsSetup.swift in Sources */,
+				41C7D61C2493D7D70039E030 /* UIView+AutoLayout.swift in Sources */,
+				41D3610024968AE200478902 /* Cast.swift in Sources */,
+				41C7D61F2493D9030039E030 /* ActivityIndicator.swift in Sources */,
+				4150D2B324985F45007FBEDD /* DateFormatter+Utilities.swift in Sources */,
+				41DDB6A32493304100BAD201 /* ViewControllerFactory.swift in Sources */,
+				4150D2A224982D6A007FBEDD /* Day.swift in Sources */,
+				4150D2A52498345B007FBEDD /* ScheduleDateEncodable.swift in Sources */,
+				41DDB6A02493044800BAD201 /* Endpoint.swift in Sources */,
+				41DDB6AA2493337E00BAD201 /* ShowViewModel.swift in Sources */,
+				41DDB6252492F41C00BAD201 /* MainViewController.swift in Sources */,
+				41D360F4249504C100478902 /* DetailViewController.swift in Sources */,
+				41DDB69E2492FD2200BAD201 /* TVShow.swift in Sources */,
+				41D360F824950CD800478902 /* DetailViewModel.swift in Sources */,
+				41DDB6A8249332D100BAD201 /* ImageService.swift in Sources */,
+				41D360F6249506B200478902 /* DetailView.swift in Sources */,
 				41DDB6212492F41C00BAD201 /* AppDelegate.swift in Sources */,
+				41DDB69B2492F8AF00BAD201 /* ShowService.swift in Sources */,
+				41DDB6B32493BFBF00BAD201 /* MainViewCell.swift in Sources */,
+				41C7D61A2493C9910039E030 /* TableViewCell+Utilities.swift in Sources */,
 				41DDB6232492F41C00BAD201 /* SceneDelegate.swift in Sources */,
+				41DDB6992492F7CE00BAD201 /* ServiceLayerClient.swift in Sources */,
+				41DDB6B12493A53200BAD201 /* Encodable+Utilities.swift in Sources */,
+				41DDB6932492F75400BAD201 /* Binding.swift in Sources */,
+				41D360FA2495779000478902 /* String+Utilities.swift in Sources */,
+				41D361022496D3A700478902 /* PageViewController.swift in Sources */,
+				41DDB6AE249344A200BAD201 /* ScheduleDate.swift in Sources */,
+				41DDB6A62493311500BAD201 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +477,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41DDB6382492F42200BAD201 /* TVShowsTests.swift in Sources */,
+				4150D2B52498658C007FBEDD /* DetailViewModelTest.swift in Sources */,
+				4150D2B1249855B6007FBEDD /* ShowViewModelTest.swift in Sources */,
+				4150D2AB2498425E007FBEDD /* ShowServiceMock.swift in Sources */,
+				41DDB6382492F42200BAD201 /* MainViewModelTest.swift in Sources */,
+				4150D2AD24984BA8007FBEDD /* ImageServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +649,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2SH2HG365W;
 				INFOPLIST_FILE = TVShows/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +668,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2SH2HG365W;
 				INFOPLIST_FILE = TVShows/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
